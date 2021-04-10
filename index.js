@@ -2,9 +2,9 @@ import express from "express";
 
 const server = express();
 server.get("/api/users", (req, res) => {
-  res.send("Hello World");
+  res.json({ user: { name: "Pablo" } });
 });
 
-server.listen(9000, () =>{
-    console.log("Listening on http://localhost:8080")
-})
+server.listen(8080, () => {
+  console.log("Listening on http://localhost:8080");
+});
