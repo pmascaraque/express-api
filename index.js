@@ -6,5 +6,5 @@ server.get("/api/users", (req, res) => {
 });
 
 server.listen(9000, () =>{
-    console.log("Listening on http://localhost:9000")
+    console.log("Listening on http://localhost:8080")
 })
