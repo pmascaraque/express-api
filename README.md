@@ -1,6 +1,6 @@
 # express-api
 
-Creating an API from scratch
+Creating an API from scratch with ExpressJS, Docker & Google Cloud Run.
 
 ## Resources
 
